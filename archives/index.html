@@ -38,7 +38,7 @@
 <!--Page Cover-->
 
 
-    <meta property="og:image" content="https://zlyx.ygyn.site/img/home-bg.jpg"/>
+    <meta property="og:image" content="https://zlyx.ygyn.site/img/home-bg.png"/>
 
 
 <meta name="twitter:card" content="summary_large_image"/>
@@ -46,7 +46,7 @@
 
 
 
-    <meta name="twitter:image" content="https://zlyx.ygyn.site/img/home-bg.jpg"/>
+    <meta name="twitter:image" content="https://zlyx.ygyn.site/img/home-bg.png"/>
 
 
 <!-- Title -->
@@ -116,7 +116,7 @@
 
 <!-- Page Header -->
 <!-- Set your background image for this header in the theme's configuration: index_cover -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+<header class="intro-header" style="background-image: url('/img/home-bg.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -135,6 +135,12 @@
             <div class="btn-group archives-filter-group" role="group" aria-label="archives filter">
     
 
+    
+        
+            <button type="button" class="btn btn-light" onclick="javascript:window,location.href = '/archives/2022'">
+                2022
+            </button>
+        
     
         
             <button type="button" class="btn btn-light" onclick="javascript:window,location.href = '/archives/2023'">
@@ -259,12 +265,22 @@
                     
                 </ul>
                 <p class="copyright footer-author">
-                    &copy; -2023 
+                    &copy; 2022-2023 
                     <a rel="external" class="copyright-link" href="" target="_blank">钟灵毓秀公会</a><br/>
                     Powered by <a rel="external" class="copyright-link" href="https://hexo.io/" target="_blank">Hexo</a>  
                     <span class="copyright-split">&nbsp;|&nbsp;&nbsp;</span>
                     Theme <a rel="external" class="copyright-link" href="https://github.com/luswdev/hexo-theme-clean.git" target="_blank">Clean</a>
                     
+                        <br/>
+                        <span id="busuanzi_container_site_pv">
+                            <i class="fas fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;
+                        </span>
+                    
+                    
+                        <span id="busuanzi_container_site_uv">
+                            <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            <i class="fas fa-user-friends"></i>&nbsp;&nbsp;<span id="busuanzi_value_site_uv"></span>&nbsp;
+                        </span>
                     
                 </p>
             </div>
@@ -285,6 +301,8 @@
 <!-- Gallery -->
 <script src="//cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/js/lightgallery-all.min.js"></script>
 <!-- Busuanzi -->
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 <!-- Search script -->
